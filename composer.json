@@ -10,12 +10,11 @@
         }
     ],
     "require": {
-        "php": ">=5.5.0",
-        "ext-curl": "*"
+        "php": ">=5.5.0"
     },
     "autoload": {
         "psr-4": {
-            "Lexasan\\Slack\\": "lib/"
+            "Lexasan\\Slack\\": "src/"
         }
     },
     "minimum-stability": "stable"
