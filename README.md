@@ -7,6 +7,28 @@ A simple PHP client for sending messages to [Slack](https://slack.com) through [
 * PHP 5.5, 5.6, 7.0 or HHVM
 * cURL extention
 
+## Instalation
+
+### Composer way
+
+Add code bellow to your composer.json in project:
+```json
+"require": {
+    "Lexa-san/slack-api-client": "dev-master"
+},
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/Lexa-san/slack-api-client"
+    }
+]
+```
+
+Then just run in console:
+```sh
+composer update --no-dev
+```
+
 ## How to use
 
 ### Examle 1
