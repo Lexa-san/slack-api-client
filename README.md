@@ -13,15 +13,17 @@ A simple PHP client for sending messages to [Slack](https://slack.com) through [
 
 Add code bellow to your composer.json in project:
 ```json
-"require": {
-    "Lexa-san/slack-api-client": "dev-master"
-},
-"repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/Lexa-san/slack-api-client"
-    }
-]
+{
+    "require": {
+        "Lexa-san/slack-api-client": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Lexa-san/slack-api-client"
+        }
+    ]
+}
 ```
 
 Then just run in console:
